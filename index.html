@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Record</title>
+
+    <!-- import libraries -->
+    <!-- <script src="/lib/simplepeer.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script> -->
+    <script src="Tone.js"></script>
+    <!-- <script src="Tone.js.map"></script> -->
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-style: italic;
+        color: #373fff;
+      }
+
+      .myrecordedvideo {
+        position: absolute;
+      }
+
+      .orecordedvideo {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript" src="script.js"></script>
+    <div>
+      <video id="myvideo" width="200" height="150" muted></video>
+      <audio id="myaudio"></audio>
+
+      <audio id="audioEffect"></audio>
+    </div>
+  </body>
+</html>
