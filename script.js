@@ -27,8 +27,6 @@ function initCapture() {
         var reverb = new Tone.Reverb({ decay: 10, wet: 0.3 });
         var volume = new Tone.Volume({ volume: -18 });
 
-
-
         /*
 
           our effects chain...
